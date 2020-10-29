@@ -125,6 +125,11 @@ function hideFeedback(extraFunc){
       {
         showAnswer();
       }
+      //Down-arrow key; hide/display meaning
+      else if (key == 40)
+      {
+        toggleDefinitionDisplay()
+      }
 	}
 
 document.addEventListener('DOMContentLoaded', function(){
